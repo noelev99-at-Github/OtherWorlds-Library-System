@@ -1,0 +1,116 @@
+.libraryName{
+    font-family: Papyrus, monospace;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.box {
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 80px;
+    width: 90%;
+    padding: 2%;
+    border: 5px solid aliceblue;  
+}
+
+body{
+    background-image: url(Images/LogInBackgroundPhoto.jpg);
+    background-size: 1750px, 1950px;  
+}
+
+.box {
+    margin: auto;
+    margin-top: 80px;
+    width: 90%;
+    padding: 2%;
+    border: 5px solid aliceblue;  
+}
+
+/*Navigation Bar*/
+
+ul{
+    margin: auto;
+    list-style-type: none;
+    margin-left: 6%;
+    padding: 0;
+    background-color: #333;
+    font-weight: bold;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    color: #04AA6D;
+}
+
+.active{
+    text-decoration: underline;
+    border-radius: 5px;
+    color: white;
+    background-color: #04AA6D;
+    padding: 20px 28px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.notActive{
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.logOut{
+    margin: 8px 0;
+    padding: 14px 20px;
+    border: none;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    left: 87%;
+}
+
+.styletable {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.15);
+}
+
+.styletable th,
+.styletable td {
+    padding: 12px 15px;
+}
+
+.styletable thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styletable tbody td {
+    border-bottom: 1px solid #dddddd;
+    background-color: aliceblue;
+}
+
+
+
+
+
